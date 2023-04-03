@@ -51,4 +51,7 @@ st.write("To be continued...")
 
 espace(2)
 
-st.write("Sources...")
+st.write("""
+    📝 Sources de l'application :
+    [https://github.com/pbejian/spotify_artists_informations](https://github.com/pbejian/spotify_artists_informations)
+""")
