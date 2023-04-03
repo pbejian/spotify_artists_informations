@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 
 def get_authorization_headers():
 
-    # Remplacez 'CLIENT_ID' et 'CLIENT_SECRET' par vos propres identifiants de client Spotify
+    # Identifiants pour les API de Spotify
     client_id = CLIENT_ID
     client_secret = CLIENT_SECRET
 
