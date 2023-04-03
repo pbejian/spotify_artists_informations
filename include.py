@@ -10,8 +10,8 @@ import streamlit as st
 def get_authorization_headers():
 
     # Identifiants pour les API de Spotify
-    client_id = CLIENT_ID
-    client_secret = CLIENT_SECRET
+    client_id = st.secrets["CLIENT_ID"]
+    client_secret = st.secrets["CLIENT_SECRET"]
 
     # Créez l'authentification client pour accéder à l'API Spotify
     client = BackendApplicationClient(client_id=client_id)
