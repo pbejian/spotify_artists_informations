@@ -4,7 +4,6 @@ import requests
 from requests_oauthlib import OAuth2Session
 from oauthlib.oauth2 import BackendApplicationClient
 import streamlit as st
-from bs4 import BeautifulSoup
 from include import *
 
 #-------------------------------------------------------------------------------
