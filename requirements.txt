@@ -1,3 +1,4 @@
 requests
 oauthlib
+requests-oauthlib
 streamlit
